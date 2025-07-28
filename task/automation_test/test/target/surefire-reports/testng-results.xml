@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-28T05:23:38 EEST" name="Surefire suite" finished-at="2025-07-28T05:23:45 EEST" duration-ms="6563">
+    <groups>
+    </groups>
+    <test started-at="2025-07-28T05:23:38 EEST" name="Surefire test" finished-at="2025-07-28T05:23:45 EEST" duration-ms="6563">
+      <class name="TestCases">
+        <test-method is-config="true" signature="Open_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:38 EEST" name="Open_browser" finished-at="2025-07-28T05:23:42 EEST" duration-ms="4097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_browser -->
+        <test-method signature="Login_test_TC_0001()[pri:1, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:42 EEST" name="Login_test_TC_0001" finished-at="2025-07-28T05:23:43 EEST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test_TC_0001 -->
+        <test-method signature="Login_test_TC_0002()[pri:2, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Login_test_TC_0002" finished-at="2025-07-28T05:23:43 EEST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test_TC_0002 -->
+        <test-method signature="Login_test_TC_0003()[pri:3, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Login_test_TC_0003" finished-at="2025-07-28T05:23:43 EEST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test_TC_0003 -->
+        <test-method signature="Add_Record_TC_0004()[pri:4, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Add_Record_TC_0004" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Record_TC_0004 -->
+        <test-method signature="Add_Record_TC_0005()[pri:5, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Add_Record_TC_0005" finished-at="2025-07-28T05:23:44 EEST" duration-ms="125" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at TestCases.Add_Record_TC_0005(TestCases.java:112)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Record_TC_0005 -->
+        <test-method signature="Edit_Record_TC_0006()[pri:6, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Edit_Record_TC_0006" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Record_TC_0006 -->
+        <test-method signature="Delete_Record_TC_0007()[pri:7, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Delete_Record_TC_0007" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Record_TC_0007 -->
+        <test-method is-config="true" signature="Close_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Close_browser" finished-at="2025-07-28T05:23:45 EEST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- TestCases -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
