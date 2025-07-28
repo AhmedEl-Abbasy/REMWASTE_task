@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestCases
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.065 s <<< FAILURE! -- in TestCases
-TestCases.Add_Record_TC_0005 -- Time elapsed: 0.129 s <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.191 s <<< FAILURE! -- in TestCases
+TestCases.Add_Record_TC_0005 -- Time elapsed: 0.165 s <<< FAILURE!
 java.lang.AssertionError
-	at TestCases.Add_Record_TC_0005(TestCases.java:112)
+	at TestCases.Add_Record_TC_0005(TestCases.java:110)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-28T05:23:38 EEST" name="Surefire suite" finished-at="2025-07-28T05:23:45 EEST" duration-ms="6563">
+  <suite started-at="2025-07-28T13:48:35 EEST" name="Surefire suite" finished-at="2025-07-28T13:48:41 EEST" duration-ms="5622">
     <groups>
     </groups>
-    <test started-at="2025-07-28T05:23:38 EEST" name="Surefire test" finished-at="2025-07-28T05:23:45 EEST" duration-ms="6563">
+    <test started-at="2025-07-28T13:48:35 EEST" name="Surefire test" finished-at="2025-07-28T13:48:41 EEST" duration-ms="5622">
       <class name="TestCases">
-        <test-method is-config="true" signature="Open_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:38 EEST" name="Open_browser" finished-at="2025-07-28T05:23:42 EEST" duration-ms="4097" status="PASS">
+        <test-method is-config="true" signature="Open_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:35 EEST" name="Open_browser" finished-at="2025-07-28T13:48:39 EEST" duration-ms="3150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_browser -->
-        <test-method signature="Login_test_TC_0001()[pri:1, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:42 EEST" name="Login_test_TC_0001" finished-at="2025-07-28T05:23:43 EEST" duration-ms="826" status="PASS">
+        <test-method signature="Login_test_TC_0001()[pri:1, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:39 EEST" name="Login_test_TC_0001" finished-at="2025-07-28T13:48:39 EEST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_test_TC_0001 -->
-        <test-method signature="Login_test_TC_0002()[pri:2, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Login_test_TC_0002" finished-at="2025-07-28T05:23:43 EEST" duration-ms="255" status="PASS">
+        <test-method signature="Login_test_TC_0002()[pri:2, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:39 EEST" name="Login_test_TC_0002" finished-at="2025-07-28T13:48:39 EEST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_test_TC_0002 -->
-        <test-method signature="Login_test_TC_0003()[pri:3, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Login_test_TC_0003" finished-at="2025-07-28T05:23:43 EEST" duration-ms="253" status="PASS">
+        <test-method signature="Login_test_TC_0003()[pri:3, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:39 EEST" name="Login_test_TC_0003" finished-at="2025-07-28T13:48:40 EEST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_test_TC_0003 -->
-        <test-method signature="Add_Record_TC_0004()[pri:4, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:43 EEST" name="Add_Record_TC_0004" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="262" status="PASS">
+        <test-method signature="Add_Record_TC_0004()[pri:4, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:40 EEST" name="Add_Record_TC_0004" finished-at="2025-07-28T13:48:40 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_Record_TC_0004 -->
-        <test-method signature="Add_Record_TC_0005()[pri:5, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Add_Record_TC_0005" finished-at="2025-07-28T05:23:44 EEST" duration-ms="125" status="FAIL">
+        <test-method signature="Add_Record_TC_0005()[pri:5, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:40 EEST" name="Add_Record_TC_0005" finished-at="2025-07-28T13:48:40 EEST" duration-ms="157" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
-at TestCases.Add_Record_TC_0005(TestCases.java:112)
+at TestCases.Add_Record_TC_0005(TestCases.java:110)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -69,15 +69,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_Record_TC_0005 -->
-        <test-method signature="Edit_Record_TC_0006()[pri:6, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Edit_Record_TC_0006" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="211" status="PASS">
+        <test-method signature="Edit_Record_TC_0006()[pri:6, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:40 EEST" name="Edit_Record_TC_0006" finished-at="2025-07-28T13:48:41 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Record_TC_0006 -->
-        <test-method signature="Delete_Record_TC_0007()[pri:7, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Delete_Record_TC_0007" finished-at="2025-07-28T05:23:44 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="353" status="PASS">
+        <test-method signature="Delete_Record_TC_0007()[pri:7, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:41 EEST" name="Delete_Record_TC_0007" finished-at="2025-07-28T13:48:41 EEST" depends-on-methods="TestCases.Login_test_TC_0003" duration-ms="439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delete_Record_TC_0007 -->
-        <test-method is-config="true" signature="Close_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T05:23:44 EEST" name="Close_browser" finished-at="2025-07-28T05:23:45 EEST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="Close_browser()[pri:0, instance:TestCases@3c87521]" started-at="2025-07-28T13:48:41 EEST" name="Close_browser" finished-at="2025-07-28T13:48:41 EEST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close_browser -->

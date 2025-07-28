@@ -2,16 +2,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.example.Data;
 
-import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class TestCases {
     WebDriver driver;
@@ -20,9 +18,9 @@ public class TestCases {
     public void Login_test_TC_0001() throws InterruptedException{
         System.out.println("TC_0001");
         
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        WebElement email = wait.until( ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Email']"))  );
+        WebElement email = driver.findElement(By.xpath("//input[@placeholder='Email']"));
         email.sendKeys("wrong@mail.com");
         System.out.println("Set Email= " + "wrong@mail.com");
         
@@ -32,7 +30,7 @@ public class TestCases {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         System.out.println("Click on login button ");
 
-        WebElement status = wait.until( ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@class='text-status-login']")));
+        WebElement status =  driver.findElement(By.xpath("//p[@class='text-status-login']"));
         System.out.println(status.getText() );
         assert status.getText().equals("Login failed. Check your credentials.");
     }
